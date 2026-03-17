@@ -1,0 +1,9 @@
+services:
+  openbot:
+    image: openbot
+    container_name: openbot
+    build:
+      context: .
+    env_file:
+      - .env
+    restart: unless-stopped
