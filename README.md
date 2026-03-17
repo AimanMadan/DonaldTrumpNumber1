@@ -27,7 +27,7 @@ A Discord bot with AI-powered chat (via OpenAI) and music playback with a per-se
 
 ```bash
 git clone https://github.com/AimanMadan/OpenBot.git
-cd DiscordBot
+cd OpenBot
 ```
 
 ### 2. Create a `.env` file
