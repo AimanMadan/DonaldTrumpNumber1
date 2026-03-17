@@ -16,7 +16,7 @@ class Events(commands.Cog):
 
     @commands.Cog.listener()
     async def on_member_join(self, member):
-        await member.send(f"Welcome to America {member.name}")
+        await member.send(f"Welcome to {settings.server_name} {member.name}")
 
     @commands.Cog.listener()
     async def on_message(self, message):
